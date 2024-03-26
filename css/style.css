@@ -195,6 +195,141 @@
     padding: 0 61px;
     border-radius: 0 30px 30px 0;
 }
+
+.tour{
+  
+    height: 690px;
+}
+.tour__wrapper{
+max-width: 1440px;
+height: 690px;
+background-image: url(../imgs/Take\ a\ Tour.png);
+background-position: bottom;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+.tour__content{
+   width: 462px;
+    height: 346px;
+    position: absolute;
+    top: 172px;
+    right: 143px;
+}
+.tour__content>h5{
+    line-height: 18px;
+    font-weight: 500;
+    font-family:sans-serif;
+    color: #00B3A0;
+}
+.tour__content>h2{
+    font-size: 42px;
+    line-height: 52px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #002248;
+    margin-top: 10.5px;
+}
+.tour__content>p{
+line-height: 28px;
+font-family: sans-serif;
+color: #697687;
+margin-bottom: 50px;
+margin-top: 20px;
+
+}
+.tour__content>a{
+padding: 20px 47px;
+background-color: #3685FB;
+line-height: 20px;
+font-family: sans-serif;
+color: #FFFFFF;
+border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+.about__container{
+    max-width: 1170px;
+    margin: auto;
+}
+.about__wrapper{
+    display: flex;
+    gap: 54px;
+    position: relative;
+}
+.about__content{
+
+}
+.about__text>h5{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    font-family:sans-serif;
+    color: #00B3A0;
+    margin-top: 145px;
+}
+.about__text>h2{
+    font-size: 40px;
+    line-height: 52px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #002248;
+    margin-top: 10px;
+}
+.about__text>p{
+    line-height: 28px;
+font-family: sans-serif;
+color: #697687;
+margin-bottom: 50px;
+margin-top: 20px;
+}
+.about__cards{
+    max-width: 320px;
+    height: 286px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    box-sizing: border-box;
+    margin: 0;
+    margin-top: 50px;
+}
+.about__card{
+    width: 100%;
+    max-width: 150px;
+    height: 130px;
+    border: 1px solid #cdcaca;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.about__card>p{
+    color: #3685FB;
+    font-size: 32px;
+    line-height: 34px;
+    font-weight: 550;
+    margin-top: 32px;
+}
+.about__card>h5{
+    color: #002248;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: sans-serif;
+}
+.about__images{
+    max-width: 604px;
+    height: 652px;
+ 
+    margin-top: 120px;
+    margin-bottom: 120px;
+   
+}
+.about__img{
+    position: absolute;
+    top: -98px;
+    right: 470px;
+}
+
 *{
     margin: 0;
     padding: 0;
